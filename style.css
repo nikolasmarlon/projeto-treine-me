@@ -49,10 +49,13 @@ nav ul {
     margin: 0;
     padding: 0;    
 }
+
 a{
     color: #1f1534;
     text-decoration: none;
+    transition: 0.3s;
 }
+
 ul li a {
     opacity: 0.5;
 }
@@ -95,13 +98,11 @@ button {
     gap: 10px;
     padding: 14px 32px 15px; 
     color: white; 
-    transition: 0.5s;     
+    transition: 0.3s;     
 }
 button:hover{
     cursor: pointer;
     background: #518f79;
-
-
 }
 
 footer {
